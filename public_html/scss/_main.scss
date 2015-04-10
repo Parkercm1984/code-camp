@@ -1,0 +1,152 @@
+.mainImage {
+
+  padding: 20px 20px 12px;
+
+
+  img {
+
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1232px;
+
+  }
+
+}
+
+.left {
+  
+  width: 100%;
+  float: left;
+  padding: 3.3% 4.3%;
+  color: white;
+  background: rgb(167, 218, 231);
+  text-align: center;
+
+}
+
+.dashboard {
+
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto;
+
+  .right {
+    
+    width: 100%;
+    float: right;
+    padding-left: 3%;
+    padding-top: 2%;
+
+    .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .sectionContainer {
+      width: 100%;
+
+      .section {
+        @include border-radius(4px);
+        width: 28%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+        padding: 1.8% 3%;
+        height: 220px;
+        background: rgba(0, 204, 255, 0.07);
+        float: left;
+      }
+
+    }
+
+  }
+  
+}
+
+.balanceSection {
+  padding: 30px 0;
+  clear: both;
+  background-color: rgba(0, 142, 0, 0.6);
+  color: white;
+  text-align: center;
+  h3 {
+    font-size: 32px;
+  }
+}
+
+.change {
+  clear: both;
+  padding: 10px 0;
+  background: orange;
+  text-align: center;
+  button {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+  }
+}
+
+$arrowBG : #888;
+
+.pager {
+  clear: both;
+  padding: 20px 45px 45px;
+  #back {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:before {
+      @include rotate(45);
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: -20px;
+      top: 1px;
+      border-left: 2px solid $arrowBG;
+      border-bottom: 2px solid $arrowBG;
+    }
+  }
+  #forward {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:before {
+      @include rotate(225);
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      right: -20px;
+      top: 1px;
+      border-left: 2px solid $arrowBG;
+      border-bottom: 2px solid $arrowBG;
+    }
+  }
+}
+
+.overlayMask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+
+  button {
+    height: 40px;
+    width: 350px;
+    position: fixed;
+    top: 48%;
+    top: calc(50% - 15px);
+    left: 45%;
+    left: calc(50% - 175px);
+  }
+}

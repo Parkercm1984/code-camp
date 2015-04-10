@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html id="thisIsTheHTML">
+  <head id="thisIsTheHead">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body id="thisIsTheBody">
+    
+    <div class="mainImage"><img src="images/bank.png" alt=""></div>
+
+    <div class="left">
+      
+      <h2>Welcome back, <span id="userName"></span></h2>
+
+    </div>
+
+    <div class="dashboard">
+
+      <div class="right">
+
+        <h1 class="title">Your Bank Account Information</h1>
+
+        <div class="sectionContainer">
+
+          <div class="section">
+            <h4>Your Address</h4>
+            <p id="userAddress">145 Williman St, Charleston, SC 29405</p>
+            <button onclick="changeUserAddress()">Edit</button>
+          </div>
+
+          <div class="section">
+            <h4>Your Account Number</h4>
+            <p id="accountNumber">1234567890</p>
+            <button onclick="changeAccountNumber()">Edit</button>
+          </div>
+
+          <div class="section">
+            <h4>Your Account Open Date</h4>
+            <p id="accountOpenDate">10/24/2014</p>
+            <button onclick="changeAccountOpenDate()">Edit</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="balanceSection">
+      <h3>$<span id="balance">1254</span></h3>
+    </div>
+
+    <div class="change">
+      
+      <button id="deposit" onclick="deposit()">Make a Deposit</button>
+      <button id="withdraw" onclick="withdraw()">Make a Withdrawal</button>
+
+    </div>
+
+    <div class="pager">
+      <div id="back" onclick="back()">Go back a day</div>
+      <div id="forward" onclick="forward()">Go forward a day</div>
+    </div>
+
+
+    <div id="overlay">
+      <div class="overlayMask"><button class="loginBtn" onclick="javascript:login();">Click here to login</button></div>
+    </div>
+    
+
+
+
+  </body>
+
+</html>

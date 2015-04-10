@@ -1,0 +1,33 @@
+$text : rgb(100, 100, 100);
+$buttonBackground : rgb(198, 198, 221);
+$textBackground : darkgray;
+
+@import "mixins";
+@import "animations";
+@import "buttons";
+@import "fonts";
+@import "main";
+
+body { 
+  background: white; 
+  color: #555;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: Proxima Nova;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}

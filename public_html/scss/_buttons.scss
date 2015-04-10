@@ -1,0 +1,18 @@
+
+button {
+  @include border-radius(2px);
+  background: #FF5400;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: 13px;
+  text-transform: uppercase;;
+  cursor: pointer;
+  letter-spacing: 1px;
+  &:hover {
+    background: #FF5400 - #222;
+  }
+  &:focus {
+    outline: none;
+  }
+}

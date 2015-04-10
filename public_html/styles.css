@@ -1,0 +1,327 @@
+@-o-keyframes glow {
+  25% {
+    text-shadow: 0 0 25px #ff3e34;
+    color: #ff3e34; }
+
+  50% {
+    text-shadow: 0 0 25px #60ff67;
+    color: #60ff67; }
+
+  75% {
+    text-shadow: 0 0 25px #4c79ff;
+    color: #4c79ff; } }
+@-moz-keyframes glow {
+  25% {
+    text-shadow: 0 0 25px #ff3e34;
+    color: #ff3e34; }
+
+  50% {
+    text-shadow: 0 0 25px #60ff67;
+    color: #60ff67; }
+
+  75% {
+    text-shadow: 0 0 25px #4c79ff;
+    color: #4c79ff; } }
+@-webkit-keyframes glow {
+  25% {
+    text-shadow: 0 0 25px #ff3e34;
+    color: #ff3e34; }
+
+  50% {
+    text-shadow: 0 0 25px #60ff67;
+    color: #60ff67; }
+
+  75% {
+    text-shadow: 0 0 25px #4c79ff;
+    color: #4c79ff; } }
+@-keyframes glow {
+  25% {
+    text-shadow: 0 0 25px #ff3e34;
+    color: #ff3e34; }
+
+  50% {
+    text-shadow: 0 0 25px #60ff67;
+    color: #60ff67; }
+
+  75% {
+    text-shadow: 0 0 25px #4c79ff;
+    color: #4c79ff; } }
+@-o-keyframes blink {
+  49% {
+    background-color: black; }
+
+  59% {
+    background-color: white; }
+
+  69% {
+    background-color: black; } }
+@-moz-keyframes blink {
+  73% {
+    background-color: black; }
+
+  83% {
+    background-color: white; }
+
+  93% {
+    background-color: black; } }
+@-webkit-keyframes blink {
+  31% {
+    background-color: black; }
+
+  41% {
+    background-color: white; }
+
+  51% {
+    background-color: black; } }
+@-keyframes blink {
+  29% {
+    background-color: black; }
+
+  39% {
+    background-color: white; }
+
+  49% {
+    background-color: black; } }
+@-o-keyframes playerRed {
+  0% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; }
+
+  50% {
+    box-shadow: 3px 0px 15px red, 0px 3px 15px red, -3px 0px 15px red, 0px -3px 15px red; }
+
+  100% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; } }
+@-moz-keyframes playerRed {
+  0% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; }
+
+  50% {
+    box-shadow: 3px 0px 15px red, 0px 3px 15px red, -3px 0px 15px red, 0px -3px 15px red; }
+
+  100% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; } }
+@-webkit-keyframes playerRed {
+  0% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; }
+
+  50% {
+    box-shadow: 3px 0px 15px red, 0px 3px 15px red, -3px 0px 15px red, 0px -3px 15px red; }
+
+  100% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; } }
+@-keyframes playerRed {
+  0% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; }
+
+  50% {
+    box-shadow: 3px 0px 15px red, 0px 3px 15px red, -3px 0px 15px red, 0px -3px 15px red; }
+
+  100% {
+    box-shadow: 3px 0px 25px red, 0px 3px 25px red, -3px 0px 25px red, 0px -3px 25px red; } }
+@-o-keyframes playerBlue {
+  0% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; }
+
+  50% {
+    box-shadow: 3px 0px 15px blue, 0px 3px 15px blue, -3px 0px 15px blue, 0px -3px 15px blue; }
+
+  100% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; } }
+@-moz-keyframes playerBlue {
+  0% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; }
+
+  50% {
+    box-shadow: 3px 0px 15px blue, 0px 3px 15px blue, -3px 0px 15px blue, 0px -3px 15px blue; }
+
+  100% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; } }
+@-webkit-keyframes playerBlue {
+  0% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; }
+
+  50% {
+    box-shadow: 3px 0px 15px blue, 0px 3px 15px blue, -3px 0px 15px blue, 0px -3px 15px blue; }
+
+  100% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; } }
+@-keyframes playerBlue {
+  0% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; }
+
+  50% {
+    box-shadow: 3px 0px 15px blue, 0px 3px 15px blue, -3px 0px 15px blue, 0px -3px 15px blue; }
+
+  100% {
+    box-shadow: 3px 0px 25px blue, 0px 3px 25px blue, -3px 0px 25px blue, 0px -3px 25px blue; } }
+button {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  background: #FF5400;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px; }
+  button:hover {
+    background: #dd3200; }
+  button:focus {
+    outline: none; }
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/ProximaNova-Regular.otf") format("opentype"); }
+.mainImage {
+  padding: 20px 20px 12px; }
+  .mainImage img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1232px; }
+
+.left {
+  width: 100%;
+  float: left;
+  padding: 3.3% 4.3%;
+  color: white;
+  background: #a7dae7;
+  text-align: center; }
+
+.dashboard {
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto; }
+  .dashboard .right {
+    width: 100%;
+    float: right;
+    padding-left: 3%;
+    padding-top: 2%; }
+    .dashboard .right .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      margin-top: 20px; }
+    .dashboard .right .sectionContainer {
+      width: 100%; }
+      .dashboard .right .sectionContainer .section {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background-clip: padding-box;
+        /* stops bg color from leaking outside the border: */
+        width: 28%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+        padding: 1.8% 3%;
+        height: 220px;
+        background: rgba(0, 204, 255, 0.07);
+        float: left; }
+
+.balanceSection {
+  padding: 30px 0;
+  clear: both;
+  background-color: rgba(0, 142, 0, 0.6);
+  color: white;
+  text-align: center; }
+  .balanceSection h3 {
+    font-size: 32px; }
+
+.change {
+  clear: both;
+  padding: 10px 0;
+  background: orange;
+  text-align: center; }
+  .change button {
+    display: block;
+    width: 300px;
+    margin: 20px auto; }
+
+.pager {
+  clear: both;
+  padding: 20px 45px 45px; }
+  .pager #back {
+    float: left;
+    position: relative;
+    cursor: pointer; }
+    .pager #back:hover {
+      text-decoration: underline; }
+    .pager #back:before {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45));
+      -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45))";
+      zoom: 1;
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: -20px;
+      top: 1px;
+      border-left: 2px solid #888888;
+      border-bottom: 2px solid #888888; }
+  .pager #forward {
+    float: right;
+    position: relative;
+    cursor: pointer; }
+    .pager #forward:hover {
+      text-decoration: underline; }
+    .pager #forward:before {
+      -webkit-transform: rotate(225deg);
+      -moz-transform: rotate(225deg);
+      -ms-transform: rotate(225deg);
+      -o-transform: rotate(225deg);
+      transform: rotate(225deg);
+      filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(225), M12=-sin(225), M21=sin(225), M22=cos(225));
+      -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(225), M12=-sin(225), M21=sin(225), M22=cos(225))";
+      zoom: 1;
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      right: -20px;
+      top: 1px;
+      border-left: 2px solid #888888;
+      border-bottom: 2px solid #888888; }
+
+.overlayMask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75); }
+  .overlayMask button {
+    height: 40px;
+    width: 350px;
+    position: fixed;
+    top: 48%;
+    top: calc(50% - 15px);
+    left: 45%;
+    left: calc(50% - 175px); }
+
+body {
+  background: white;
+  color: #555;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: Proxima Nova; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+.clearfix {
+  clear: both; }
+
+/*# sourceMappingURL=styles.css.map */
